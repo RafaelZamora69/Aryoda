@@ -1,0 +1,64 @@
+body {
+    background-color: #424242;
+
+}
+.link:hover{
+    background-color: #616161;
+}
+
+.mapa{
+    width: 100%;
+    height: 400px;
+}
+.card-panel{
+    margin-top: 8%;
+    .btn{
+        border: 1px solid #ffe57f;
+        background: transparent;
+        color: #ffe57f;
+        transition: .5s;
+        &:hover{
+            background: #ffe57f59;
+        }
+    }
+}
+.input-field input[type=text],
+.input-field input[type=textarea]{
+    color: white;
+}
+.input-field input[type=text]:focus{
+    color: white;
+    &:focus{
+        border-bottom: 1px solid #ffe57f;
+        box-shadow: 0 1px 0 0 #ffe57f;
+    }
+    &:focus + label{
+        color: #ffe57f;
+    }
+}
+.input-field textarea:focus{
+    color: white;
+    &:focus{
+        border-bottom: 1px solid #ffe57f;
+        box-shadow: 0 1px 0 0 #ffe57f;
+    }
+    &:focus + label{
+        color: #ffe57f;
+    }
+}
+.input-field .prefix{
+    color: white;
+}
+.input-field .prefix.active{
+    color: #ffe57f;
+}
+.card-panel{
+    background-color: #757575;
+}
+.love{
+    transition: 1s;
+    &:hover{
+        
+        color: red;
+    }
+}
