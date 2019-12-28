@@ -9,6 +9,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/contacto.css">
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
 </head>
 <body>
     <div class="navbar-fixed">
@@ -33,96 +36,124 @@
     </div>
     <section class="slider">
         <ul class="slides">
-          <li>
-            <img src="img/slider2.jpg" />
-            <!-- random image -->
-            <div class="caption center-align">
-              <h1>Aryoda Seguridad Privada</h1>
-              <h5 class="light grey-text text-lighten-3">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,
-                numquam.
-              </h5>
-              <a class="white black-text waves-effect waves-light btn btn-large"
-                >leer más</a
-              >
-            </div>
-          </li>
-          <li>
-            <img src="img/slider2.jpg" />
-            <!-- random image -->
-            <div class="caption left-align">
-              <h3>Texto</h3>
-              <h5 class="light grey-text text-lighten-3">
-                Tal vez un slogan.
-              </h5>
-              <a class="white black-text waves-effect waves-light btn btn-large"
-                >leer más</a
-              >
-            </div>
-          </li>
+            <li>
+                <img src="img/slider2.jpg" />
+                <div class="caption center-align">
+                    <h1>Aryoda Seguridad Privada</h1>
+                    <h5 class="light grey-text text-lighten-3">
+                        Un equipo de confianza con seguridad
+                    </h5>
+                    <a class="white black-text waves-effect waves-light btn btn-large">leer más</a>
+                </div>
+            </li>
+            <li>
+                <img src="img/slider2.jpg" />
+                <div class="caption left-align">
+                    <h3>Texto</h3>
+                    <h5 class="light grey-text text-lighten-3">
+                        Tal vez un slogan.
+                    </h5>
+                    <a class="white black-text waves-effect waves-light btn btn-large">leer más</a>
+                </div>
+            </li>
         </ul>
-      </section>
-    <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
-    <div class="parallax-container">
-        <div class="parallax">
-            <img
-                src="img/1.jpg">
-        </div>
-    </div>
-    
-    <div class="container">
-        <div class="row">
-            <div class="card col s12 m12 l4 xl4">
-                <div class="card-image">
-                    <img src="https://ontariosecurityhub.ca/wp-content/uploads/2019/08/002.jpg" width="100px">
-                    <span class="card-title">Contactenos</span>
+    </section>
+    <!-- Servicios -->
+    <div class="servicios">
+        <div class="container">
+            <h1 class="white-text center-align">Nuestros servicios</h1>
+            <div class="row">
+                <div class="card col s12 m12 l xl4 hoverable">
+                    <div class="card-image">
+                        <img src="img/servicios/servicio1.jpg" class="materialboxed">
+                        <span class="card-title">
+                            Servicios de vigilancia
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Nuestros servicios de vigilancia ofrecen soluciones inmediatas, claras y confiables, mediante nuestro equipo de trabajo especializado y adecuadamente capacitado para cubrir las necesidades del cliente.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="">Contactanos!</a>
+                    </div>
                 </div>
-                <div class="card-content">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quia saepe eligendi accusantium
-                        nesciunt pariatur facilis nemo a reiciendis, asperiores laborum necessitatibus quae commodi
-                        harum ullam, dolore earum illo facere?
-                    </p>
+                <div class="card-panel col s12 m12 l8 xl8 equipo">
+                    <div class="carousel">
+                        <a class="carousel-item"><img src="img/servicios/fornitura.png" alt=""></a>
+                        <a class="carousel-item"><img src="img/servicios/gas.png" alt=""></a>
+                        <a class="carousel-item"><img src="img/servicios/pr24.png" alt=""></a>
+                        <a class="carousel-item"><img src="img/servicios/tel.png" alt=""></a>
+                    </div>
+                    <div class="divider"></div>
+                    <h5>Equipo</h5>
+                        <p>
+                            Equipados con un equipo de comunicación con red interna y con enlace directo a las autoridades para una respuesta apoyada e inmediata ante cualquier siniestro.
+                        </p>
                 </div>
-            </div>
-            <div class="section col s12 m12 l8 xl8">
-                <div class="row">
-                    <form action="" class="col">
-                        <div class="card-panel">
-                            <h4 class="white-text center-align">Contactenos</h4>
-                            <div class="input-field col s12 l6 xl6">
-                                <i class="material-icons prefix">person</i>
-                                <input type="text" id="Nombre" class="validate" required>
-                                <label for="Nombre">Nombre</label>
-                            </div>
-                            <div class="input-field col s12 l6 xl6">
-                                <i class="material-icons prefix">mail</i>
-                                <input type="text" id="Correo" class="validate" required>
-                                <label for="Correo">Correo</label>
-                            </div>
-                            <div class="input-field asunto col s12 l12 xl12">
-                                <i class="material-icons prefix">message</i>
-                                <textarea id="textarea1" class="materialize-textarea validate" data-length="120" required></textarea>
-                                <label for="textarea1">Mensaje</label>
-                            </div>
-                            <button class="btn waves-effect" type="submit">Enviar</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s12 m12 l12 xl12">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.4943608196468!2d-96.12500098479049!3d19.17359838703191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c34131bc84c4e3%3A0x2b971cd5d50a0c47!2sSEGURIDAD%20PRIVADA%20ARYODA!5e0!3m2!1ses!2smx!4v1577393147620!5m2!1ses!2smx"
-                    class="mapa"></iframe>
             </div>
         </div>
     </div>
-
+    <!-- Contacto -->
+    <div class="contacto">
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="img/1.jpg">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="card col s12 m12 l4 xl4 hoverable">
+                    <div class="card-image">
+                        <img src="img/contacto.jpg" class="materialboxed">
+                        <span class="card-title">Contactenos</span>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quia saepe eligendi
+                            accusantium
+                            nesciunt pariatur facilis nemo a reiciendis, asperiores laborum necessitatibus quae commodi
+                            harum ullam, dolore earum illo facere?
+                        </p>
+                    </div>
+                </div>
+                <div class="section col s12 m12 l8 xl8">
+                    <div class="row">
+                        <form action="" class="col">
+                            <div class="card-panel gray">
+                                <h4 class="white-text center-align">Contactenos</h4>
+                                <div class="input-field col s12 l6 xl6">
+                                    <i class="material-icons prefix">person</i>
+                                    <input type="text" id="Nombre" class="validate" required>
+                                    <label for="Nombre">Nombre</label>
+                                </div>
+                                <div class="input-field col s12 l6 xl6">
+                                    <i class="material-icons prefix">mail</i>
+                                    <input type="text" id="Correo" class="validate" required>
+                                    <label for="Correo">Correo</label>
+                                </div>
+                                <div class="input-field asunto col s12 l12 xl12">
+                                    <i class="material-icons prefix">message</i>
+                                    <textarea id="textarea1" class="materialize-textarea validate" data-length="120"
+                                        required></textarea>
+                                    <label for="textarea1">Mensaje</label>
+                                </div>
+                                <button class="btn waves-effect" type="submit">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m12 l12 xl12">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.4943608196468!2d-96.12500098479049!3d19.17359838703191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c34131bc84c4e3%3A0x2b971cd5d50a0c47!2sSEGURIDAD%20PRIVADA%20ARYODA!5e0!3m2!1ses!2smx!4v1577393147620!5m2!1ses!2smx"
+                        class="mapa hoverable" frameborder=0></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer class="page-footer grey darken-4">
         <div class="container">
             <div class="contenedor-footer">
@@ -154,6 +185,13 @@
             var elems = document.querySelectorAll('.sidenav');
             var instances = M.Sidenav.init(elems);
         });
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.materialboxed');
+            var instances = M.Materialbox.init(elems);
+          });
+          $(document).ready(function(){
+            $('.carousel').carousel();
+          });
     </script>
 </body>
 

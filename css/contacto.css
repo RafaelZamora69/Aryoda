@@ -11,10 +11,6 @@ body {
   height: 400px;
 }
 
-.card-panel {
-  margin-top: 8%;
-}
-
 .card-panel .btn {
   border: 1px solid #ffe57f;
   background: transparent;
@@ -68,7 +64,7 @@ body {
   color: #ffe57f;
 }
 
-.card-panel {
+.gray {
   background-color: #757575;
 }
 
@@ -79,5 +75,13 @@ body {
 
 .love:hover {
   color: red;
+}
+
+.parallax-container {
+  z-index: 1;
+}
+
+.contacto {
+  background-color: white;
 }
 /*# sourceMappingURL=contacto.css.map */
