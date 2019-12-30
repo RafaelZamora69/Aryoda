@@ -1,3 +1,8 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 body {
   background-color: #424242;
 }
@@ -83,5 +88,23 @@ body {
 
 .contacto {
   background-color: white;
+}
+
+.nosotros {
+  background-color: white;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+}
+
+.icon {
+  margin-left: 30%;
+  margin-right: 30%;
+  font-size: 100px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.icon:hover {
+  color: #ffe57f;
 }
 /*# sourceMappingURL=contacto.css.map */
