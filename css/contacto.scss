@@ -1,3 +1,8 @@
+html{
+    transition-duration: 2s;
+    scroll-behavior: smooth;
+    
+}
 *{
     padding: 0px;
     margin: 0px;
@@ -71,11 +76,10 @@ body {
 }
 .nosotros{
     background-color: white;
-    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
 }
 .icon{
-    margin-left: 30%;
-    margin-right: 30%;
+    display: block;
+    
     font-size: 100px;
     transition: 1s;
     &:hover{
