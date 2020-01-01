@@ -1,15 +1,8 @@
 html{
-    transition-duration: 2s;
     scroll-behavior: smooth;
-    
-}
-*{
-    padding: 0px;
-    margin: 0px;
 }
 body {
     background-color: #424242;
-
 }
 .link:hover{
     background-color: #616161;
@@ -79,7 +72,6 @@ body {
 }
 .icon{
     display: block;
-    
     font-size: 100px;
     transition: 1s;
     &:hover{
