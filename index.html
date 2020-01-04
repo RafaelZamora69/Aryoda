@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/contacto.css">
     <link rel ="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/aos.css">
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
@@ -28,7 +29,7 @@
     <div class="navbar-fixed">
         <nav class="grey darken-4">
             <div class="nav-wrapper">
-                <a href="index.html" class="brand-logo">Logo</a>
+                <a href="index.html" class="brand-logo"><object data="img/LogoAryoda.svg" type="image/svg+xml" width="50px" class="logo"></object></a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger">
                     <i class="material-icons">menu</i>
                 </a>
@@ -52,7 +53,7 @@
             <li>
                 <img src="img/slider2.jpg" />
                 <div class="caption center-align">
-                    <h1>Aryoda Seguridad Privada</h1>
+                    <object data="img/AryodaSinFondo.svg" width="700px"></object>
                     <h5 class="light grey-text text-lighten-3">Un equipo de confianza con seguridad</h5>
                     <a class="white black-text waves-effect waves-light btn btn-large">leer más</a>
                 </div>
@@ -73,7 +74,7 @@
             <h1>Aryoda seguridad privada</h1>
             <div class="row">
                 <div class="col s12 m12 l4 xl4">
-                    <div class="card hoverable">
+                    <div class="card hoverable" data-aos="fade-up">
                         <div class="card-image">
                             <img src="img/quienes_somos.jpg" alt="">
                             <span class="card-title">Quienes somos?</span>
@@ -90,7 +91,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col s12 m12 l12 xl12">
-                                <div class="card hoverable">
+                                <div class="card hoverable" data-aos="fade-left">
                                     <div class="card-content">
                                         <span class="card-title">Historia</span>
                                         <p>
@@ -108,7 +109,7 @@
                         </div>
                         <div class="row">
                             <div class="col s12 m12 l12 xl12">
-                                <div class="card hoverable">
+                                <div class="card hoverable" data-aos="fade-left">
                                     <div class="card-content">
                                         <p>
                                             Los logros que apoyan nuestro liderazgo e imagen son varios; ya que contamos
@@ -131,12 +132,12 @@
     <!-- Servicios -->
     <div class="servicios">
         <div class="container">
-            <h1 class="white-text center-align">Nuestros servicios</h1>
+            <h1 class="white-text center-align" data-aos="zoom-in">Nuestros servicios</h1>
             <div class="row">
                 <div class="col s12 m12 l4 xl4">
-                    <div class="card hoverable">
+                    <div class="card hoverable" data-aos="fade-up" data-aos-duration="1900" data-aos-delay="300">
                         <div class="card-image">
-                            <img src="img/servicios/servicio1.jpg" class="materialboxed">
+                            <img src="img/servicios/servicio1.jpg">
                             <span class="card-title">
                                 Servicios de vigilancia
                             </span>
@@ -154,7 +155,7 @@
                     </div>
                 </div>
                 <div class="col s12 m6 l4 xl4">
-                    <div class="card hoverable">
+                    <div class="card hoverable" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="200">
                         <div class="card-content">
                             <i class="material-icons icon center-align">flash_on</i>
                             <span class="card-title">Respuesta rápida</span>
@@ -166,7 +167,7 @@
                     </div>
                 </div>
                 <div class="col s12 m6 l4 xl4">
-                    <div class="card hoverable">
+                    <div class="card hoverable" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="100">
                         <div class="card-content">
                             <i class="material-icons icon center-align">security</i>
                             <span class="card-title">Seguridad garantizada</span>
@@ -192,7 +193,7 @@
                 <div class="col s12 m12 l4 xl4">
                     <div class="card hoverable">
                         <div class="card-image">
-                            <img src="img/contacto.jpg" class="materialboxed">
+                            <img src="img/contacto.jpg">
                             <span class="card-title">Contactenos</span>
                         </div>
                         <div class="card-content">
@@ -259,8 +260,13 @@
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="js/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
+        AOS.init({
+            duration: 1000,
+        });
         document.addEventListener('DOMContentLoaded', function () {
             var elems = document.querySelectorAll('.parallax');
             var instances = M.Parallax.init(elems);
