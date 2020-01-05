@@ -51,6 +51,9 @@
 .social ul li .fa-instagram{
 background:  #DD2A7B;
 }
+.social ul li .fa-envelope-square{
+  background: #004f9f;
+}
 .social ul li a:hover{
     padding:10px 30px;
     background: #000;
