@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/swiper.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/nosotros.css">
@@ -67,5 +68,71 @@
             </li>
         </ul>
     </section>
+
+<!--Galeria-->
+<center><h1 >Nuestro equipo</h1></center>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+    <div class ="swiper-slide">
+    	<div class = "imgBx">
+    		<img src="img/io.jpg">
+    	</div>
+    	<div class="detalles">
+    		<h3>Azael Garcia NetXus<br><span>programador web</span></h3>
+    		
+    	</div>
+    </div>
+
+      <div class ="swiper-slide">
+    	<div class = "imgBx">
+    		<img src="img/persona.jpg">
+    	</div>
+    	<div class="detalles">
+    		<h3>Azael Garcia<br><span>Diseñador web</span></h3>
+    		
+    	</div>
+    </div>
+      <div class ="swiper-slide">
+    	<div class = "imgBx">
+    		<img src="img/persona.jpg">
+    	</div>
+    	<div class="detalles">
+    		<h3>Azael Garcia <br><span>Diseñador web</span></h3>
+    		
+    	</div>
+    </div>
+      <div class ="swiper-slide">
+    	<div class = "imgBx">
+    		<img src="img/persona.jpg">
+    	</div>
+    	<div class="detalles">
+    		<h3>Azael Garcia<br><span>Diseñador web</span></h3>
+    		
+    	</div>
+    </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+ <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 60,
+        stretch: 0,
+        depth: 500,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+
 </body>
 </html>
