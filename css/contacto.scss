@@ -78,3 +78,27 @@ body {
         color: #ffe57f;
     }
 }
+.face{
+    transition: 1s;
+    a{
+        color: #3b5998;
+    }
+    &:hover{
+        a{
+            color: white;
+        }
+        background-color: #3b5998;
+    }
+}
+.instagram{
+    transition: 1s;
+    a{
+        color: #DD2A7B;
+    }
+    &:hover{
+        a{
+            color: white;
+        }
+        background-color: #DD2A7B;
+    }
+}

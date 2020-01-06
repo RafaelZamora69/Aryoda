@@ -23,6 +23,9 @@
   .section-contact {
     margin-top: 100px;
   }
+  h1{
+    margin: 0px;
+  }
   /* css DEL MENU DE REDES SOCIALES*/
   .social{
     position: fixed;

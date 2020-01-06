@@ -103,4 +103,38 @@ body {
 .icon:hover {
   color: #ffe57f;
 }
+
+.face {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.face a {
+  color: #3b5998;
+}
+
+.face:hover {
+  background-color: #3b5998;
+}
+
+.face:hover a {
+  color: white;
+}
+
+.instagram {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.instagram a {
+  color: #DD2A7B;
+}
+
+.instagram:hover {
+  background-color: #DD2A7B;
+}
+
+.instagram:hover a {
+  color: white;
+}
 /*# sourceMappingURL=contacto.css.map */
