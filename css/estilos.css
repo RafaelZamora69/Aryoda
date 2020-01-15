@@ -105,8 +105,7 @@ background:  #DD2A7B;
 }
 
 /* CSS SCROLL BAR */
-::-webkit-scrollbar
-{
+::-webkit-scrollbar{
  width: 12px;
 }
 ::-webkit-scrollbar-thumb
