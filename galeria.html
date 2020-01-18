@@ -9,12 +9,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="galeria/jquery.min.js"></script>
+	 <script src="js/materialize.min.js"></script>
     <script src="https://kit.fontawesome.com/9678432bf0.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/svg+xml" href="img/LogoAryoda.svg" sizes="any">
     <title>Seguridad privada aryoda</title>
 </head>
 
 <body bgcolor="white">
+    <script>
+        $(document).ready(function(){
+            $('.materialbox').materialbox();
+            
+        });
+       </script>
+   
     <!--Menu redes sociales-->
     <div class="social">
         <ul>
@@ -54,11 +63,42 @@
             <h1>
                 <object data="img/AryodaSinFondo.svg" type="image/svg+xml" width="300px" class="logo"></object>
             </h1>
-            <div class="row">
+          
                
             </div>
         </div>
     </div>
+    <div class="container ">
+        <h1>Galeria</h1>
+  
+        <div class="row card">
+            
+            <div class="col s12 m6 l4">
+                <img src="galeria/a.jpeg" class="materialbox responsive-img card">
+            </div>
+            <div class="col s12 m6 l4">
+                <img src="galeria/b.jpeg" class="materialbox responsive-img card">
+            </div>
+            <div class="col s12 m6 l4">
+                <img src="galeria/c.jpeg" class="materialbox responsive-img card">
+            </div>
+  
+  
+            <div class="col s12 m6 l4">
+                <img src="galeria/d.jpeg" class="materialbox responsive-img card">
+            </div>
+        
+            <div class="col s12 m6 l4">
+                <img src="galeria/e.jpeg" class="materialbox responsive-img card">
+            </div>
+            <div class="col s12 m6 l4">
+                <img src="galeria/f.jpeg" class="materialbox responsive-img card">
+            </div>
+            
+         </div>
+  
+    </div>
+  
 </body>
 
 </html>
