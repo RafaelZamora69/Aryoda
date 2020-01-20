@@ -1,0 +1,18 @@
+footer{
+    li{
+        a{
+            color: white;
+            transition: .5s;
+            &:hover{
+                color: #ffe57f;
+            }
+        }
+    }
+}
+
+.love{
+    transition: 1s;
+    &:hover{
+        color: red;
+    }
+}

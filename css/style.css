@@ -1,0 +1,19 @@
+footer li a {
+  color: white;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+footer li a:hover {
+  color: #ffe57f;
+}
+
+.love {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.love:hover {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */

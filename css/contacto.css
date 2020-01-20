@@ -72,15 +72,6 @@ body {
   background-color: #757575;
 }
 
-.love {
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-.love:hover {
-  color: red;
-}
-
 .parallax-container {
   z-index: 1;
   height: 300px;
