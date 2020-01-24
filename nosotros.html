@@ -11,21 +11,19 @@
     <link rel="stylesheet" href="css/nosotros.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <script src="https://kit.fontawesome.com/9678432bf0.js" crossorigin="anonymous"></script>
-    <script src="js/materialize.js"></script>
     <link rel="icon" type="image/svg+xml" href="img/LogoAryoda.svg" sizes="any">
     <title>Seguridad privada aryoda</title>
 </head>
 
-<body>
+<body style="background-color: white;">
     <!--Menu redes sociales-->
     <div class="social">
         <ul>
-            <li><a href="https://www.facebook.com/"target="_blank"  class="fab fa-facebook-square"></a></li>
-
-            <li><a href="https://www.instagram.com/"target="_blank"  class="fab fa-instagram"></a></li>
+            <li><a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-square"></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram"></a></li>
             <li><a href="contacto.html" class="fas fa-envelope-square"></a> </li>
         </ul>
     </div>
@@ -42,9 +40,9 @@
                     <li class="link"><a href="index.html">Inicio</a></li>
                     <li class="active link"><a href="nosotros.html">Nosotros</a></li>
                     <li class="link"><a href="servicios.html">Servicios</a></li>
-                    <li class="link"><a href="galeria.html" >Galeria</a></li>
+                    <li class="link"><a href="galeria.html">Galeria</a></li>
                     <li class="link"><a href="contacto.html">Contacto</a></li>
-                    
+
                 </ul>
             </div>
         </nav>
@@ -61,7 +59,7 @@
                 <object data="img/AryodaSinFondo.svg" type="image/svg+xml" width="300px" class="logo"></object>
             </h1>
             <div class="row">
-                <div class="col s12 l6 xl6">
+                <div class="col s12 l6 xl6" data-aos="fade-right">
                     <div class="card hoverable">
                         <div class="card-image">
 
@@ -74,7 +72,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col s12 l6 xl6">
+                <div class="col s12 l6 xl6" data-aos="fade-left">
                     <div class="card hoverable">
                         <div class="card-image">
 
@@ -82,7 +80,7 @@
                         <div class="card-content">
                             <p>
                                 Contamos con presencia nacional en distintos estados de la republica, asistencia y
-                                supervisión 24/7 para que tu y tu patrimonio siempre esten seguros.
+                                supervisión 24/7 para que tú y tu patrimonio siempre esten seguros.
                             </p>
                         </div>
                     </div>
@@ -149,7 +147,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="card col s12 xl6">
+                <div class="card col s12 xl6" data-aos="fade-left" data-aos-delay="600">
                     <div class="card-content">
                         <span class="card-title">Nuestros Valores</span>
                         <ul class="collection">
@@ -165,7 +163,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col s12 xl4">
+                <div class="col s12 xl4" data-aos="flip-left" data-aos-delay="300">
                     <div class="card">
                         <div class="card-content">
                             <span class="card-title">Nuestra estrategia</span>
@@ -184,7 +182,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col s12 xl4">
+                <div class="col s12 xl4" data-aos="flip-right" data-aos-delay="600">
                     <div class="card">
                         <div class="card-content">
                             <span class="card-title">Especialización y soluciones personalizadas</span>
@@ -200,60 +198,22 @@
                         </div>
                     </div>
                 </div>
-                <blockquote class="col s12 xl4">
+                <blockquote class="col s12 xl4" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1900">
                     Estamos profundamente comprometidos con nuestros clientes y asociados.
                     Nuestra actividad exige la mejora y actualización continua de cada uno de nuestros integrantes por
                     lo que nuestro programa de capacitación es permanente.
                 </blockquote>
             </div>
             <div class="row">
-                <div class="row">
-                    <h1 class="center-align">Nuestro equipo</h1>
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="imgBx">
-                                    <img src="img/io.jpg">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="imgBx">
-                                    <img src="https://images2.alphacoders.com/106/thumb-350-1061748.jpg">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="imgBx">
-                                    <img src="https://picfiles.alphacoders.com/332/thumb-332414.jpg">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="imgBx">
-                                    <img src="https://picfiles.alphacoders.com/332/thumb-332412.jpg">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Add Pagination -->
-                        <div class="swiper-pagination"></div>
+                <div class="col s12">
+                    <h3 class="center-align">Galería</h3>
+                    <div class="carousel carousel-slider">
+                        <a class="carousel-item"><img src="img/1.jpg"></a>
+                        <a class="carousel-item"><img src="https://images2.alphacoders.com/106/thumb-350-1061748.jpg"></a>
+                        <a class="carousel-item"><img src="https://images.alphacoders.com/105/thumb-350-1059616.jpg"></a>
+                        <a class="carousel-item"><img src="https://images.alphacoders.com/246/thumb-350-246223.jpg"></a>
+                        <a class="carousel-item"><img src="https://images7.alphacoders.com/536/thumb-350-536426.png"></a>
                     </div>
-                    <script type="text/javascript" src="js/swiper.min.js"></script>
-                    <script>
-                        var swiper = new Swiper('.swiper-container', {
-                            effect: 'coverflow',
-                            grabCursor: true,
-                            centeredSlides: true,
-                            slidesPerView: 'auto',
-                            coverflowEffect: {
-                                rotate: 60,
-                                stretch: 0,
-                                depth: 500,
-                                modifier: 1,
-                                slideShadows: true,
-                            },
-                            pagination: {
-                                el: '.swiper-pagination',
-                            },
-                        });
-                    </script>
                 </div>
             </div>
         </div>
@@ -295,7 +255,14 @@
         </div>
     </footer>
 </body>
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+<script src="js/aos.js"></script>
+<script src="js/materialize.js"></script>
 <script>
+    AOS.init({
+        duration: 1000,
+    });
     document.addEventListener('DOMContentLoaded', function () {
         var elems = document.querySelectorAll('.collapsible');
         var instances = M.Collapsible.init(elems);
@@ -303,6 +270,17 @@
     document.addEventListener('DOMContentLoaded', function () {
         var elems = document.querySelectorAll('.parallax');
         var instances = M.Parallax.init(elems);
+    });
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.carousel');
+        var instances = M.Carousel.init(elems, {
+            indicators: true,
+            fullWidth: true
+        });
+    });
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.materialboxed');
+        var instances = M.Materialbox.init(elems);
     });
 </script>
 
