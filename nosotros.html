@@ -80,7 +80,7 @@
                         <div class="card-content">
                             <p>
                                 Contamos con presencia nacional en distintos estados de la republica, asistencia y
-                                supervisión 24/7 para que tu y tu patrimonio siempre esten seguros.
+                                supervisión 24/7 para que tú y tu patrimonio siempre esten seguros.
                             </p>
                         </div>
                     </div>
@@ -95,7 +95,7 @@
         <div class="container">
             <div class="row">
                 <h1 class="center-align">Nuestras políticas</h1>
-                <div class="col s12 xl6" data-aos="zoom-in-up" data-aos-delay="600">
+                <div class="col s12 xl6">
                     <ul class="collapsible popout">
                         <li class="active">
                             <div class="collapsible-header"><i class="fa fa-bullseye"></i>Misión</div>
@@ -205,17 +205,14 @@
                 </blockquote>
             </div>
             <div class="row">
-                <div class="col.s12">
+                <div class="col s12">
                     <h3 class="center-align">Galería</h3>
-                    <div class="carousel">
+                    <div class="carousel carousel-slider">
                         <a class="carousel-item"><img src="img/1.jpg"></a>
-                        <a class="carousel-item"><img
-                                src="https://images2.alphacoders.com/106/thumb-350-1061748.jpg"></a>
-                        <a class="carousel-item"><img
-                                src="https://images.alphacoders.com/105/thumb-350-1059616.jpg"></a>
+                        <a class="carousel-item"><img src="https://images2.alphacoders.com/106/thumb-350-1061748.jpg"></a>
+                        <a class="carousel-item"><img src="https://images.alphacoders.com/105/thumb-350-1059616.jpg"></a>
                         <a class="carousel-item"><img src="https://images.alphacoders.com/246/thumb-350-246223.jpg"></a>
-                        <a class="carousel-item"><img
-                                src="https://images7.alphacoders.com/536/thumb-350-536426.png"></a>
+                        <a class="carousel-item"><img src="https://images7.alphacoders.com/536/thumb-350-536426.png"></a>
                     </div>
                 </div>
             </div>
@@ -277,7 +274,8 @@
     document.addEventListener('DOMContentLoaded', function () {
         var elems = document.querySelectorAll('.carousel');
         var instances = M.Carousel.init(elems, {
-            indicators: true
+            indicators: true,
+            fullWidth: true
         });
     });
     document.addEventListener('DOMContentLoaded', function () {
