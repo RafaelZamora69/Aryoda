@@ -7,6 +7,6 @@ $msj = $_POST['msj'];
 
 $asunto ="Contacto";
 $msjCompleto = $msj . "\nAtentamente: ". $nombre;
-mail($correo, $msjCompleto, $asunto, $correo1);
+mail($correo, $msjCompleto, $asunto,$correo1);
 echo "<script> M.toast({html: 'I am a toast!'})</script>";
 echo "<script>setTimeout(\"location.href='index.html'\",100)</script>";
