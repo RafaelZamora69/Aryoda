@@ -198,7 +198,7 @@
                 </div>
                 <div class="section col s12 m12 l8 xl8">
                     <div class="row">
-                        <form method="POST" action="correo.php" class="col">
+                        <form method="POST" action="correo2.php" class="col">
                             <div class="card-panel gray">
                                 <h4 class="white-text center-align">Contactenos</h4>
                                 <div class="input-field col s12 l6 xl6">
@@ -217,7 +217,7 @@
                                         data-length="120" required></textarea>
                                     <label for="textarea1">Mensaje</label>
                                 </div>
-                                <button class="btn waves-effect" type="submit">Enviar</button>
+                                <button class="btn" type="submit" name="Enviar" onclick="M.toast({html: 'Mensaje enviado'})">Enviar</button>
                             </div>
                         </form>
                     </div>
