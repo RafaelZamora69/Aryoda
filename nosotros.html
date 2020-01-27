@@ -28,31 +28,28 @@
         </ul>
     </div>
     <!--FIn-->
-    <div class="navbar-fixed">
-        <nav class="grey darken-4">
-            <div class="nav-wrapper">
-                <a href="index.html" class="brand-logo"><object data="img/LogoAryoda.svg" type="image/svg+xml"
-                        width="50px" class="logo"></object></a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-                    <i class="material-icons">menu</i>
-                </a>
-                <ul class="right hide-on-med-and-down">
-                    <li class="link"><a href="index.html">Inicio</a></li>
-                    <li class="active link"><a href="nosotros.html">Nosotros</a></li>
-                    <li class="link"><a href="servicios.html">Servicios</a></li>
-                    <li class="link"><a href="galeria.html">Galeria</a></li>
-                    <li class="link"><a href="contacto.html">Contacto</a></li>
-
-                </ul>
-            </div>
-        </nav>
-        <ul class="sidenav" id="mobile-demo">
-            <li class="active link"><a href="index.html">Inicio</a></li>
-            <li class="link"><a href="#">Nosotros</a></li>
-            <li class="link"><a href="#">Servicios</a></li>
-            <li class="link"><a href="#">Contacto</a></li>
-        </ul>
-    </div>
+    <nav>
+        <div class="nav-wrapper navbar-fixed grey darken-4">
+            <object data="img/LogoAryoda.svg" type="image/svg+xml" width="50px" class="brand-logo center"></object>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li class="link"><a href="index.html">Inicio</a></li>
+                <li class="active link"><a href="nosotros.html">Nosotros</a></li>
+                <li class="link"><a href="servicios.html">Servicios</a></li>
+                <li class="link"><a href="galeria.html">Galeria</a></li>
+                <li class="link"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
     <div class="nosotros">
         <div class="container">
             <h1>
@@ -60,7 +57,7 @@
             </h1>
             <div class="row">
                 <div class="col s12 l6 xl6" data-aos="fade-right">
-                    <div class="card hoverable">
+                    <div class="card">
                         <div class="card-image">
 
                         </div>
@@ -73,7 +70,7 @@
                     </div>
                 </div>
                 <div class="col s12 l6 xl6" data-aos="fade-left">
-                    <div class="card hoverable">
+                    <div class="card">
                         <div class="card-image">
 
                         </div>
@@ -89,7 +86,7 @@
         </div>
         <div class="parallax-container">
             <div class="parallax">
-                <img src="https://images4.alphacoders.com/646/thumb-1920-646069.jpg">
+                <img src="img/contacto.jpg">
             </div>
         </div>
         <div class="container">
@@ -226,10 +223,8 @@
                         <h4>Seguridad privada aryoda</h4>
                         <p>
                             En Aryoda nos comprometemos a proporcionar servicios de seguridad confiables, honestos y
-                            profesionales
-                            al sector privado y público, con tecnología de punta, verificando permanentemente la total
-                            satisfacción de cada uno de
-                            nuestros clientes y vigilando la mejor continua.
+                            profesionales al sector privado y público, con tecnología de punta, verificando permanentemente la total
+                            satisfacción de cada uno de nuestros clientes y vigilando la mejor continua.
                         </p>
                     </div>
                 </div>
@@ -279,8 +274,8 @@
         });
     });
     document.addEventListener('DOMContentLoaded', function () {
-        var elems = document.querySelectorAll('.materialboxed');
-        var instances = M.Materialbox.init(elems);
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
     });
 </script>
 

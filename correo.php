@@ -5,7 +5,7 @@ $nombre = $_POST['nombre'];
 $correo = $_POST['correo'];
 $msj = $_POST['msj'];
 
-$asunto ="Mensaje enviado  desde Seguridad privada Aryoda";
+$asunto ="Contacto";
 $msjCompleto = $msj . "\nAtentamente: ". $nombre;
 mail($correo, $msjCompleto, $asunto);
 echo "<script>alert ('correo enviado exitosamente')</script>";
