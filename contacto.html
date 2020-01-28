@@ -14,27 +14,30 @@
     <link rel="icon" type="image/svg+xml" href="img/LogoAryoda.svg" sizes="any">
 </head>
 <body>
-    <nav>
-        <div class="nav-wrapper navbar-fixed grey darken-4">
-            <object data="img/LogoAryoda.svg" type="image/svg+xml" width="50px" class="brand-logo center"></object>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-                <i class="material-icons">menu</i>
-            </a>
-            <ul class="right hide-on-med-and-down">
-                <li class="link"><a href="index.html">Inicio</a></li>
-                <li class="link"><a href="nosotros.html">Nosotros</a></li>
-                <li class="link"><a href="servicios.html">Servicios</a></li>
-                <li class="link"><a href="galeria.html">Galeria</a></li>
-                <li class="active link"><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </div>
-    </nav>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper navbar-fixed grey darken-4">
+                <object data="img/LogoAryoda.svg" type="image/svg+xml" width="50px" class="brand-logo center"></object>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li class="link"><a href="index.html">Inicio</a></li>
+                    <li class="link"><a href="nosotros.html">Nosotros</a></li>
+                    <li class="link"><a href="servicios.html">Servicios</a></li>
+                    <li class="link"><a href="galeria.html">Galeria</a></li>
+                    <li class="active link"><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="nosotros.html">Nosotros</a></li>
-        <li><a href="servicios.html">Servicios</a></li>
-        <li><a href="galeria.html">Galeria</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
+        <object data="img/AryodaSinFondo.svg" width="200px" class="center"></object>
+        <li><a href="index.html"><i class="fas fa-home"></i>Inicio</a></li>
+        <li><a href="nosotros.html"><i class="fas fa-users"></i>Nosotros</a></li>
+        <li><a href="servicios.html"><i class="fas fa-briefcase"></i>Servicios</a></li>
+        <li><a href="galeria.html"><i class="far fa-images"></i>Galeria</a></li>
+        <li><a href="contacto.html"><i class="far fa-envelope"></i>Contacto</a></li>
     </ul>
     <div class="contacto">
         <div class="container">
@@ -118,4 +121,10 @@
         </div>
     </footer>
 </body>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+    });
+</script>
 </html>
